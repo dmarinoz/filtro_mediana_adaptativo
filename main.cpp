@@ -26,12 +26,6 @@ int main()
     return 0;
 }
 
-//   MEDIAN calculation
-//     elements - input elements
-//     N        - number of input elements
-
-
-
 int  adaptiveProcess(vector<vector<element>> im, int row, int col, int kernelSize, int maxSize)
 {
     vector <int> pixels;
@@ -75,4 +69,3 @@ vector<vector<element>> work(vector<vector<element>> src){
     }
     return dst;
 }
-
